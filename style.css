@@ -275,23 +275,8 @@ section .title::after{
   padding: 100px 0;
 }
 
-
-.qualification .title {
-  text-align: center;
-  font-size: 42px;
-  font-weight: 700;
-  margin-bottom: 10px;
-  color: crimson;
-  text-transform: uppercase;
-}
-
-.qualification .subtitle {
-  text-align: center;
-  font-size: 18px;
-  font-weight: 500;
-  margin-bottom: 50px;
-  color: #777;
-  font-style: italic;
+.qualification .title::after{
+    content: "what i studied";
 }
 
 .qualification .serv-content {
@@ -358,22 +343,8 @@ body.dark .services {
   color: #f9f9f9;
 }
 
-.services .title {
-  text-align: center;
-  font-size: 42px;
-  font-weight: 700;
-  margin-bottom: 10px;
-  color: crimson;
-  text-transform: uppercase;
-}
-
-.services .subtitle {
-  text-align: center;
-  font-size: 18px;
-  font-weight: 500;
-  margin-bottom: 50px;
-  color: #777;
-  font-style: italic;
+.services .title::after{
+    content: "What I have done";
 }
 
 .services .serv-content {
@@ -441,24 +412,9 @@ body.dark .skills {
   color: #f9f9f9;
 }
 
-.skills .title {
-  text-align: center;
-  font-size: 42px;
-  font-weight: 700;
-  margin-bottom: 10px;
-  color: crimson;
-  text-transform: uppercase;
+.skills .title::after{
+    content: "What I know";
 }
-
-.skills .subtitle {
-  text-align: center;
-  font-size: 18px;
-  font-weight: 500;
-  margin-bottom: 50px;
-  color: #777;
-  font-style: italic;
-}
-
 .skills .skills-content {
   display: flex;
   flex-wrap: wrap;
@@ -534,22 +490,8 @@ body.dark .projects {
   color: #f9f9f9;
 }
 
-.projects .title {
-  text-align: center;
-  font-size: 42px;
-  font-weight: 700;
-  margin-bottom: 10px;
-  color: crimson;
-  text-transform: uppercase;
-}
-
-.projects .subtitle {
-  text-align: center;
-  font-size: 18px;
-  font-weight: 500;
-  margin-bottom: 50px;
-  color: #777;
-  font-style: italic;
+.projects .title::after{
+    content: "what I do";
 }
 
 .projects-grid {
@@ -643,22 +585,8 @@ body.dark .contact {
   color: #f9f9f9;
 }
 
-.contact .title {
-  text-align: center;
-  font-size: 42px;
-  font-weight: 700;
-  margin-bottom: 10px;
-  color: crimson;
-  text-transform: uppercase;
-}
-
-.contact .subtitle {
-  text-align: center;
-  font-size: 18px;
-  font-weight: 500;
-  margin-bottom: 50px;
-  color: #777;
-  font-style: italic;
+.contact .title::after{
+    content: "get in touch";
 }
 
 .contact-content {
